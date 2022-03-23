@@ -18,7 +18,7 @@ function handleChange(evt) {
 }
 const [state, setState] = React.useState({
   fullName: "",
-  bio: "",
+  bio: 5,
   profession:""
 })
   return (
@@ -29,7 +29,7 @@ const [state, setState] = React.useState({
         <label> Profession<input type="text" name="profession" value={state.profession} onChange={handleChange}/></label>
       </form>
 
-    <Profile fullName={state.fullName} bio={state.bio} profession={state.profession}  data="Click here" onChildClick={handleName}>
+    <Profile fullName={state.fullName} bio={state.bio}  data="Click here" onChildClick={handleName}>
       <img src="./IT.jpg" />
     </Profile> 
     </div>

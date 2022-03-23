@@ -17,9 +17,9 @@ export default Profile;
 
 //Set default props
 Profile.defaultProps = {
-    fullName: "test1",
-    bio:"hh",
-    profession: "dev"
+    fullName: "John",
+    bio:"description",
+    profession: "Engineer"
 };
 
 Profile.propTypes = {
